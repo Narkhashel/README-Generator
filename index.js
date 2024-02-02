@@ -1,6 +1,6 @@
 const fs = require("fs");
-const path = require('path');
 const inquirer = require("inquirer");
+const util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -33,12 +33,12 @@ const questions = [
         },
         {
             type: 'input',
-            message: 'Test instructions',
+            message: 'Test instructions:',
             name: 'test'
         },
         {
             type: 'list',
-            message: 'Please chose your License.',
+            message: 'Please chose your License:',
             choices: ['MIT','Academic Free License v3.0','European Union Public License 1.1','Microsoft Public License','The Unlicense','Open Software License 3.0'],
             name: 'license'        
         },
@@ -66,20 +66,18 @@ async function promptUser(questions) {
 
 // function to write README file
 async function writeToFile(fileName, data) {
-    try {
-        await fs.writeFile(fileName, data);
-    }
-    catch (err) {
-        console.log("Error writing to file", err);
-    }
-}
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+          return console.log("Error writing to file:", err);
+        }
+})};
 
 // function to initialize program
 async function init() {
     const questions = generateQuestions();
     const answers = await promptUser(questions);
     const readmeMd = generateMarkdown(answers);
-    writeToFile("README.md", readmeMd);
+    await writeToFile("README.md", readmeMd);
 }
 
 // function call to initialize program
