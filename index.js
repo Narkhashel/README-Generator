@@ -1,6 +1,5 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -13,7 +12,7 @@ const questions = [
         },
         {
             type: 'input',
-            message: 'Short Description of you Project:',
+            message: 'Short Description of your Project:',
             name: 'description'
         },
         {
@@ -56,7 +55,7 @@ const questions = [
     return questions
 }
 
-// function to prompt questions 
+// function to prompt questions to user
 async function promptUser(questions) {
     let answers = {};
     answers = await inquirer.prompt(questions);
@@ -77,7 +76,7 @@ async function init() {
     const questions = generateQuestions();
     const answers = await promptUser(questions);
     const readmeMd = generateMarkdown(answers);
-    await writeToFile("README.md", readmeMd);
+    await writeToFile("exampleREADME.md", readmeMd);
 }
 
 // function call to initialize program

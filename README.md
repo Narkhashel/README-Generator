@@ -1,38 +1,47 @@
-# yes
-
-## Table of Contents
-  
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [License](#license)
+# README.md file Generator
 
 ## Description 
 
-yes yes yes
+When creating an open source project on GitHub, it's important to have a high-quality README for the app. This should include the app's purpose, how to use the app, how to install it, how to report issues, and how to make contributions. This last part increases the likelihood that other developers will contribute to the success of the project.
 
-### Instalation
+You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
-n/a
+### Acceptance Criteria
 
-### Usage
+* Create a command-line application that accepts user input.
 
-n/a
+* When a user is prompted for information about the application repository, a high-quality, professional README.md is generated with:
+  * The title of my project,
+  * Sections entitled:
+    * Description
+    * Table of Contents
+    * Installation
+    * Usage
+    * License
+    * Contributing
+    * Tests
+    * Questions
 
-### Contribution
+* When a user enters the project title, it's displayed as the title of the README.
 
-n/a
+* When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions, this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
 
-### Test
+* When a user chooses a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
 
-n/a
+* When a user enters their GitHub username, it's added to the section of the README entitled Questions, with a link to their GitHub profile.
 
-### License
+* When a user enters their email address, it's added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
 
-MIT
+* When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
 
-### Questions
+### Demo 
 
-You can reach me at pochmarek or you can check my work at github.
+(video)
 
+## Credits
+
+(credits to ppl and links to web)
+
+## License
+
+[MITLicense](https://choosealicense.com/licenses/mit/)
