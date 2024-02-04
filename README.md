@@ -1,4 +1,4 @@
-# README.md file Generator
+# README Generator
 
 ## Description 
 
@@ -11,7 +11,7 @@ You can quickly and easily create a README file by using a command-line applicat
 * Create a command-line application that accepts user input.
 
 * When a user is prompted for information about the application repository, a high-quality, professional README.md is generated with:
-  * The title of my project,
+  * The title of my project
   * Sections entitled:
     * Description
     * Table of Contents
@@ -23,7 +23,7 @@ You can quickly and easily create a README file by using a command-line applicat
     * Questions
 
 * When a user enters the project title, it's displayed as the title of the README.
-
+ 
 * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions, this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
 
 * When a user chooses a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
@@ -34,13 +34,19 @@ You can quickly and easily create a README file by using a command-line applicat
 
 * When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
 
-### Demo 
+### Working Demo
 
-(video)
+![]()
 
 ## Credits
 
-(credits to ppl and links to web)
+This project wouldn't be possible if not for those resources:
+
+[Shields.io](https://shields.io/#styles) - a service for concise, consistent, and legible badges
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+[ValidateJavaScript](https://validatejavascript.com/)
 
 ## License
 
