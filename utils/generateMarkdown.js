@@ -2,6 +2,8 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ![Badge for GitHub license used.]( https://shields.io/badge/License_Used-${data.license}-blue?logo=appveyor&style=plastic)
+  
 ## Table of Contents
   
   * [Description](#description)
@@ -32,7 +34,7 @@ ${data.test}
 
 ### License
 
-${data.license}
+The application is covered under ${data.license}
 
 ### Questions
 

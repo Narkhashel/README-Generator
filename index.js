@@ -38,7 +38,7 @@ const questions = [
         {
             type: 'list',
             message: 'Please chose your License:',
-            choices: ['MIT','Academic Free License v3.0','European Union Public License 1.1','Microsoft Public License','The Unlicense','Open Software License 3.0'],
+            choices: ['MIT','Academic_Free_License_v3.0','European_Union_Public_License_1.1','Microsoft_Public_License','The_Unlicense','Open_Software_License_3.0'],
             name: 'license'        
         },
         {
