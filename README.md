@@ -36,7 +36,7 @@ You can quickly and easily create a README file by using a command-line applicat
 
 ### Working Demo
 
-![Demo recording](/Recording%202024-02-04%20213521.mp4)
+![Demo recording](/Demo_recording.mp4)
 
 ## Credits
 
