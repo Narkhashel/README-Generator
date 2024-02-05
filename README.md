@@ -36,11 +36,11 @@ You can quickly and easily create a README file by using a command-line applicat
 
 ### Working Demo
 
-<video src="./Demo_recording.mp4" controls="controls" style="max-width: 730px;"></video>
+https://github.com/Narkhashel/README-Generator/assets/149010349/272a1ba0-960e-4471-984a-dd6da5b70d95
 
 ## Credits
 
-This project wouldn't be possible if not for those resources:
+This project wouldn't be possible if not for the resources:
 
 [Shields.io](https://shields.io/#styles) - a service for concise, consistent, and legible badges
 
