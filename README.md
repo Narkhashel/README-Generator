@@ -36,7 +36,7 @@ You can quickly and easily create a README file by using a command-line applicat
 
 ### Working Demo
 
-![Demo recording](/Demo_recording.mp4)
+<video src="./Demo_recording.mp4" controls="controls" style="max-width: 730px;"></video>
 
 ## Credits
 
@@ -51,3 +51,5 @@ This project wouldn't be possible if not for those resources:
 ## License
 
 [MITLicense](https://choosealicense.com/licenses/mit/)
+
+<video controls src="Demo_recording.mp4" title="Title"></video>
