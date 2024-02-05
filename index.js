@@ -64,7 +64,7 @@ async function promptUser(questions) {
 }
 
 // function to write README file
-async function writeToFile(fileName, data) {
+function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
           return console.log("Error writing to file:", err);
@@ -76,7 +76,7 @@ async function init() {
     const questions = generateQuestions();
     const answers = await promptUser(questions);
     const readmeMd = generateMarkdown(answers);
-    await writeToFile("exampleREADME.md", readmeMd);
+    writeToFile("exampleREADME.md", readmeMd);
 }
 
 // function call to initialize program
